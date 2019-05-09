@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many :entries
+  has_many :entries, dependent: :destroy
   has_many :comments
 
   before_save {email.downcase!}
@@ -13,4 +13,10 @@ class User < ApplicationRecord
   has_secure_password
 
   scope :order_by_name, ->{order name: :asc}
+
+  class << self
+    def current_user? user
+      user == current_user
+    end
+  end
 end

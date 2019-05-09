@@ -17,6 +17,8 @@ gem "bootstrap-sass"
 gem "bcrypt"
 gem "config"
 gem "jquery-rails"
+gem "kaminari"
+gem "ffaker"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
