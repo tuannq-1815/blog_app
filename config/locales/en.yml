@@ -24,3 +24,13 @@ en:
       confirmation: "Confirmation"
     create:
       welcome: "Welcome to the Blog App!"
+  sessions:
+    new:
+      submit: "Log in"
+      title: "Login"
+      remember_me: "Remember me"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
+    create:
+      login_successed: "Login successed!"
+      invalid_login: "Invalid email/password combination"
