@@ -6,7 +6,7 @@ en:
     header:
       blog: "Blog app"
       home: "Home"
-      help: "Help"
+      help: "Post"
       log_in: "Login"
     footer:
       footer_html: "Sun* Inc."
@@ -34,3 +34,20 @@ en:
     create:
       login_successed: "Login successed!"
       invalid_login: "Invalid email/password combination"
+  shared:
+    user_info:
+      view_my_profile: "View my profile"
+      entry: "Entry"
+    micropost_form:
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
+  entries:
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      entry_deleted: "Entry deleted!"
+      delete_unsuccessful: "Delete unsuccessful!"
+    entry:
+      you_sure: "You sure?"
+      posted: "Posted"
+      ago: "ago."
